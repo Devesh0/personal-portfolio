@@ -1,0 +1,114 @@
+<!--
+  Project : Personal Portfolio Page
+  Author : Devesh Patni
+  Description : Portfolio page to display information about me.
+  Tools : 1.HTML5 
+          2.CSS 3
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul id='navbar'>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skill-section">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="welcome-section" class="intro">
+        <img class="header-img" src="images/devesh.jpg" alt="Avatar">
+        <h1>Hey I'am Devesh.</h1>
+        <h4>a Python, Full-Stack developer...</h4>
+    </div>
+
+    <div id="projects" class="work-header">
+        <h2>These are some of my projects..</h2>
+    </div>
+    <div class="projects">
+        <div class="card" style="width:28rem;">
+            <img class="card-img-top" src="images/algorithms.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Search&amp;Sort algorithms.</h4>
+                <p class="card-text">Implemented complex searching &amp; sorting algorithms in Python</p>
+                <a href="https://github.com/Devesh15/A-star-Search" class="btn btn-outline-secondary">See Project</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="images/django-rest-framework.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Django-Restframework</h4>
+                <p class="card-text">Basic django-restframework to upload differrent files.</p>
+                <a href="https://github.com/Devesh15/django-restframework" class="btn btn-outline-secondary">See
+                    Project</a>
+            </div>
+        </div>
+
+        <div class="card" style="width:28rem;">
+            <img class="card-img-top" src="images/angular.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Angular contact-management app.</h4>
+                <p class="card-text">Angular app which loads contact details from JSON file. Deployed on HEROKU.</p>
+                <a href="https://github.com/Devesh15/angular-app" class="btn btn-outline-secondary">See Project</a>
+            </div>
+        </div>
+
+        <div class="card" style="width:28rem;">
+            <img class="card-img-top" src="images/snake-game.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Classic Snake-game</h4>
+                <p class="card-text">Classic old-school snake game implemented in Javascript.</p>
+                <a href="https://github.com/Devesh15/snake-game" class="btn btn-outline-secondary">See Project</a>
+            </div>
+        </div>
+    </div><!--End of Projects -->
+
+    <div id="skill-section">
+        <div class="skill-header">
+            <h2>Skill-Set I have...</h2>
+        </div>
+        <div class="skils-list">
+            <i class="fab fa-python fa-5x"></i>
+            <i class="fab fa-js-square fa-5x"></i>
+            <i class="fab fa-java fa-5x"></i>
+            <i class="fab fa-html5 fa-5x"></i>
+            <i class="fab fa-css3-alt fa-5x"></i>
+            <i class="fab fa-angular fa-5x"></i>
+            <i class="fab fa-node fa-5x"></i>
+        </div>
+    </div><!--End of skill-section-->
+
+    <div id="contact" class="contact">
+        <div class="contact-header">
+            <h2>Let's work together...</h2>
+        </div>
+        <div class="contact-links">
+            <a href="https://github.com/Devesh15" class="contact-details"><i class="fab fa-github fa-5x"></i></a>
+            <a href="" class="contact-details"><i class="fab fa-linkedin fa-5x"></i></a>
+            <a href="mailto:Devesh.Patni@mountblue.io" class="contact-details"><i class="fas fa-envelope fa-5x"></i></a>
+            <a href="tel:9462471511" class="contact-details"><i class="fas fa-phone fa-5x"></i></a>
+        </div>
+    </div><!-- End of contact-->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small black">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Devesh Patni</div>
+    </footer>
+</body>
+
+</html>

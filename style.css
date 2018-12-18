@@ -1,0 +1,101 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navbar {
+    background-color: #343a40;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-img {
+    border-radius: 50%;
+    width: 20vw;
+}
+
+.work-header {
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: 1vw;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+.card-img-top {
+    margin-bottom: 2vw;
+}
+
+.skill-header {
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: 1vw;
+}
+
+.skils-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+.contact-header {
+    background-color: #343a40;
+    color: #fff;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-top: 1vw;
+
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-links a {
+    color: #212529;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2vw;
+    background-color: #343a40;
+    color: #fff;
+}
